@@ -32,10 +32,10 @@ Follow these steps:
   → No, the launcher comes with a built-in Java version.  
   → If you want to use your own Java installation, select **option 3** and provide the path. **Java 25 or higher is required.**
   
-  - **Which OS does this Launcher support?**  
+- **Which OS does this Launcher support?**  
   → Currently it supports **Linux and Windows** but it's planned the support **MacOS**.
 
- - **Why is it so heavy?**  
+- **Why is it so heavy?**  
   → Hylerty Launcher **has Java 25 included for being easy to use**. If not you may be hours trying to configure your own Java installation or installing the correct version...
 
 - **I've started the game and it's taking hours for Hytale to be downloaded. Is it normal?**  
