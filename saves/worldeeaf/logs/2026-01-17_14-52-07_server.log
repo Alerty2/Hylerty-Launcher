@@ -1,0 +1,1303 @@
+[2026/01/17 13:52:07   INFO]           [HytaleServer] Starting HytaleServer
+[2026/01/17 13:52:07   INFO]           [HytaleServer] Loading config...
+[2026/01/17 13:52:07   INFO]           [HytaleServer] Authentication mode: OFFLINE
+[2026/01/17 13:52:08   INFO]      [ServerAuthManager] Singleplayer mode, owner: alerty (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:52:08   INFO]      [ServerAuthManager] No server tokens configured. Use /auth login to authenticate, or provide tokens via CLI/environment.
+[2026/01/17 13:52:08   INFO]      [ServerAuthManager] Server session ID: 7dbbffe1-4bcb-4a88-8e9e-9338496bb954
+[2026/01/17 13:52:08   INFO]           [HytaleServer] Enabling Sentry
+[2026/01/17 13:52:08   INFO]           [HytaleServer] Booting up HytaleServer - Version: 2026.01.13-dcad8778f, Revision: dcad8778f19e4e56af55d74b58575c91c50a018d
+[2026/01/17 13:52:08   INFO]           [HytaleServer] Setup phase...
+[2026/01/17 13:52:08   INFO]          [PluginManager] Loading pending core plugins!
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ConsoleModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:PermissionsModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:FlyCameraModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:AssetModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:CommonAssetModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:CosmeticsModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ServerManager
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:I18nModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ItemModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockTypeModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:LegacyModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockStateModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:CollisionModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockSetModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:MigrationModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockHealthModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:PrefabSpawnerModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:TimeModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:InteractionModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:EntityModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:EntityStatsModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:EntityUIModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:DamageModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:SplitVelocity
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:StaminaModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:DebugPlugin
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ProjectileModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ServerPlayerListModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:AccessControlModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:SingleplayerModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Universe
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ConnectedBlocksModule
+[2026/01/17 13:52:08   INFO]          [PluginManager] Loading pending classpath plugins!
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:AssetEditor
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockSpawner
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockTick
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BlockPhysics
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:BuilderTools
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Crafting
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:CommandMacro
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Instances
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:LANDiscovery
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:NPC
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:NPCObjectives
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ObjectiveReputation
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Objectives
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ObjectiveShop
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Path
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Reputation
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:NPCReputation
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Shop
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:ShopReputation
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:NPCShop
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:NPCEditor
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Stash
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:TagSet
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Teleport
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Fluid
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Weather
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:WorldGen
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Farming
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Camera
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:WorldLocationCondition
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:NPCCombatActionEvaluator
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Model
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Mantling
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:SafetyRoll
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:SprintForce
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:CrouchSlide
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Parkour
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Mounts
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:HytaleGenerator
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Teleporter
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Memories
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Deployables
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Portals
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Beds
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:Ambience
+[2026/01/17 13:52:08   INFO]          [PluginManager] - Hytale:CreativeHub
+[2026/01/17 13:52:08   INFO]          [PluginManager] Loading pending plugins from directory: /home/miguel/Documentos/CosasC/HylertyLauncher/release/Client/UserData/Mods
+[2026/01/17 13:52:08   INFO]             [Universe|P] Scheduled backup to run every 30 minute(s)
+-=|Setup|1.0
+-=|Setup|2.0
+-=|Setup|4.0
+-=|Setup|5.0
+[2026/01/17 13:52:09   INFO]          [AssetModule|P] Asset monitor enabled!
+[2026/01/17 13:52:09   INFO]          [AssetModule|P] Loaded pack: Hytale:Hytale from Assets.zip
+[2026/01/17 13:52:09   INFO]          [AssetModule|P] Loading packs from directory: mods
+[2026/01/17 13:52:09   INFO]          [AssetModule|P] Loading packs from directory: /home/miguel/Documentos/CosasC/HylertyLauncher/release/Client/UserData/Mods
+-=|Setup|6.0
+[2026/01/17 13:52:09   INFO]        [ConsoleModule|P] Setup console with type: dumb
+-=|Setup|7.000000000000001
+-=|Setup|9.0
+-=|Setup|10.0
+-=|Setup|11.0
+-=|Setup|12.0
+-=|Setup|14.000000000000002
+-=|Setup|15.0
+-=|Setup|16.0
+-=|Setup|17.0
+-=|Setup|19.0
+-=|Setup|20.0
+-=|Setup|21.0
+-=|Setup|22.0
+-=|Setup|23.0
+-=|Setup|25.0
+-=|Setup|26.0
+-=|Setup|27.0
+[2026/01/17 13:52:09   INFO]      [ServerAuthManager] Server certificate set: CN=localhost
+[2026/01/17 13:52:09   INFO]          [QUICTransport] Server certificate registered for mutual auth, fingerprint: AJK40LZpweqwr6dYRj8hdG1Jl4NUuKCz7uD0KFoKoDs
+-=|Setup|28.000000000000004
+-=|Setup|30.0
+-=|Setup|31.0
+-=|Setup|32.0
+[2026/01/17 13:52:10   INFO]          [QUICTransport] Using IPv4 Datagram Channel: EpollDatagramChannel(INET)...
+-=|Setup|33.0
+-=|Setup|35.0
+[2026/01/17 13:52:10   INFO]          [QUICTransport] Using IPv6 Datagram Channel: EpollDatagramChannel(INET6)...
+-=|Setup|36.0
+[2026/01/17 13:52:10   WARN] [io.netty.bootstrap.Bootstrap] Unknown channel option 'IP_DONTFRAGMENT' for channel '[id: 0xb7938c7a]' of type 'class io.netty.channel.epoll.EpollDatagramChannel'
+[2026/01/17 13:52:10   WARN] [io.netty.bootstrap.Bootstrap] Unknown channel option 'IP_DONTFRAGMENT' for channel '[id: 0x117648ed]' of type 'class io.netty.channel.epoll.EpollDatagramChannel'
+[2026/01/17 13:52:10   INFO]              [ServerManager|P] Took 1sec 208ms 864us 123ns to setup transport!
+-=|Setup|37.0
+-=|Setup|38.0
+-=|Setup|40.0
+-=|Setup|41.0
+-=|Setup|42.0
+-=|Setup|43.0
+-=|Setup|44.0
+-=|Setup|46.0
+-=|Setup|47.0
+-=|Setup|48.0
+-=|Setup|49.0
+-=|Setup|51.0
+-=|Setup|52.0
+-=|Setup|53.0
+-=|Setup|54.0
+-=|Setup|56.00000000000001
+-=|Setup|56.99999999999999
+-=|Setup|57.99999999999999
+-=|Setup|59.0
+-=|Setup|60.0
+-=|Setup|62.0
+-=|Setup|63.0
+-=|Setup|64.0
+-=|Setup|65.0
+-=|Setup|67.0
+-=|Setup|68.0
+-=|Setup|69.0
+-=|Setup|70.0
+-=|Setup|72.0
+-=|Setup|73.0
+-=|Setup|74.0
+-=|Setup|75.0
+-=|Setup|77.0
+-=|Setup|78.0
+-=|Setup|79.0
+-=|Setup|80.0
+-=|Setup|81.0
+-=|Setup|83.0
+-=|Setup|84.0
+-=|Setup|85.0
+-=|Setup|86.0
+-=|Setup|88.0
+-=|Setup|89.0
+-=|Setup|90.0
+-=|Setup|91.0
+-=|Setup|93.0
+-=|Setup|94.0
+-=|Setup|95.0
+-=|Setup|96.0
+-=|Setup|98.0
+-=|Setup|99.0
+-=|Setup|100.0
+[2026/01/17 13:52:11   INFO]            [ServerAuthManager] Auth credential store: Memory
+[2026/01/17 13:52:11   INFO]                 [HytaleServer] Setup phase completed! Boot time 3sec 465ms 28us 814ns
+[2026/01/17 13:52:11   INFO]                       [Hytale] Loading common assets from: /
+[2026/01/17 13:52:11   INFO]          [CommonAssetModule|P] Took 103ms 427us 309ns to load 22981 assets from CommonAssetsIndex.hashes file.
+[2026/01/17 13:52:11   WARN]          [CommonAssetModule|P] Duplicated Asset Count: 1040
+[2026/01/17 13:52:11   INFO]                       [Hytale] Loading common assets phase completed! Boot time 3sec 568ms 953us 929ns, Took 103ms 743us 564ns
+[2026/01/17 13:52:11   INFO]          [AssetRegistryLoader] Loading 91 asset stores...
+[2026/01/17 13:52:11   INFO]          [AssetRegistryLoader] Pre-adding assets...
+[2026/01/17 13:52:11   INFO]            [CollisionModule|P] Block extents for CollisionSystem is Max=0.0, Min=0.0
+[2026/01/17 13:52:11   INFO]                       [Hytale] Loading assets from: /Server
+[2026/01/17 13:52:11   INFO]          [AssetRegistryLoader] Loading assets from /Server
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Unused key(s) in 'FluidMaskExample' file /Server/ScriptedBrushes/Examples/FluidMaskExample.json: Description
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeFloor' for file '/Server/ScriptedBrushes/Archive/templeFloor.json' has incorrect format! Expected: 'TempleFloor'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Unused key(s) in 'ReplaceWaterExample' file /Server/ScriptedBrushes/Examples/ReplaceWaterExample.json: Description
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templePillars' for file '/Server/ScriptedBrushes/Archive/templePillars.json' has incorrect format! Expected: 'TemplePillars'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'BoulderBrush_old' for file '/Server/ScriptedBrushes/Archive/BoulderBrush_old.json' has incorrect format! Expected: 'BoulderBrush_Old'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'moltenBall' for file '/Server/ScriptedBrushes/Archive/moltenBall.json' has incorrect format! Expected: 'MoltenBall'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeRandom' for file '/Server/ScriptedBrushes/Archive/templeRandom.json' has incorrect format! Expected: 'TempleRandom'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'MountainBrush_old' for file '/Server/ScriptedBrushes/Archive/MountainBrush_old.json' has incorrect format! Expected: 'MountainBrush_Old'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeWalls' for file '/Server/ScriptedBrushes/Archive/templeWalls.json' has incorrect format! Expected: 'TempleWalls'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'templeDestruction' for file '/Server/ScriptedBrushes/Archive/templeDestruction.json' has incorrect format! Expected: 'TempleDestruction'
+[2026/01/17 13:52:11   WARN] [AssetStore|ScriptedBrushAsset] Asset key 'keepDestruction' for file '/Server/ScriptedBrushes/Archive/keepDestruction.json' has incorrect format! Expected: 'KeepDestruction'
+[2026/01/17 13:52:11 SEVERE]                          [SERR] Reallocate: 131072 to 1179648
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/01/17 13:52:11   WARN]              [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/01/17 13:52:11   WARN]              [MacroCommandBase] Could not parse default argument value for argument: 'world' on Macro Command: 'settimeandgohome'.
+server.commands.errors.noSuchWorld{name=com.hypixel.hytale.protocol.StringParamValue@bf4c6e40}
+server.commands.errors.noSuchWorld{name=com.hypixel.hytale.protocol.StringParamValue@bf4c6e40}
+[2026/01/17 13:52:12   WARN]           [AssetStore|ModelVFX] Asset key 'test' for file '/Server/Entity/ModelVFX/test.json' has incorrect format! Expected: 'Test'
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Runtime_Defect_1' file /Server/HytaleGenerator/Assignments/Dev/Runtime_Defect_1.json: Prop.BoxBlockType
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Plains1_Deeproot_Grasses' file /Server/HytaleGenerator/Assignments/Plains1/Plains1_Deeproot_Grasses.json: FieldFunction.CacheSize
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Runtime_Defect_0' file /Server/HytaleGenerator/Assignments/Dev/Runtime_Defect_0.json: Prop.BoxBlockType
+[2026/01/17 13:52:12   WARN]               [HytaleGenerator] Duplicate export name for asset: Volcanic1_Swamp_Bushes_Jungles_Pattern
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Oasis_Grasses_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]               [HytaleGenerator] Duplicate export name for asset: Plains1_OakPattern_Floor_Grass
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Boulders_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Plains1_Mountains_Grasses' file /Server/HytaleGenerator/Assignments/Plains1/Plains1_Mountains_Grasses.json: FieldFunction.CacheSize
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Desert1_Oasis_Grasses' file /Server/HytaleGenerator/Assignments/Desert1/Desert1_Oasis_Grasses.json: $Comments
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Desert1_Oasis_Boulders' file /Server/HytaleGenerator/Assignments/Desert1/Desert1_Oasis_Boulders.json: $Comments
+[2026/01/17 13:52:12   WARN]               [HytaleGenerator] Duplicate export name for asset: Plains1_OakPattern_Floor_Grass
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Boab_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]               [HytaleGenerator] Duplicate export name for asset: Desert1_Boulders_Scanner
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Boulders_Scanner' with asset id 'null
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Plains1_Gorges_Boulder_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Plains1_Oak_Bushes' file /Server/HytaleGenerator/Assignments/Plains1/Plains1_Oak_Bushes.json: FieldFunction.CacheSize
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Plains1_Gorges_Tree_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]               [HytaleGenerator] Duplicate export name for asset: Plains1_Sticks
+[2026/01/17 13:52:12   WARN]               [HytaleGenerator] Duplicate export name for asset: Plains1_OakPattern_Floor_Grass
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Taiga1_Rivers_Grasses' file /Server/HytaleGenerator/Assignments/Taiga1/Taiga1_Rivers_Grasses.json: $Comments
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Desert1_Oasis_Flowers' file /Server/HytaleGenerator/Assignments/Desert1/Desert1_Oasis_Flowers.json: $Comments
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Palm_Scanner' with asset id 'null
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Oasis_Plants_2_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Desert1_Oasis_Flowers_2' file /Server/HytaleGenerator/Assignments/Desert1/Desert1_Oasis_Flowers_2.json: $Comments
+[2026/01/17 13:52:12   INFO]               [HytaleGenerator] Exported Scanner asset with name 'Desert1_Dry_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]   [AssetStore|AssignmentsAsset] Unused key(s) in 'Desert1_Oasis_Trees_Dry' file /Server/HytaleGenerator/Assignments/Desert1/Desert1_Oasis_Trees_Dry.json: $Comments
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_swamp_dead' for file '/Server/PrefabList/Trees_Ash_swamp_dead.json' has incorrect format! Expected: 'Trees_Ash_Swamp_Dead'
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Fir_red' for file '/Server/PrefabList/Trees_Fir_red.json' has incorrect format! Expected: 'Trees_Fir_Red'
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted_Giant' for file '/Server/PrefabList/Trees_Ash_twisted_Giant.json' has incorrect format! Expected: 'Trees_Ash_Twisted_Giant'
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted' for file '/Server/PrefabList/Trees_Ash_twisted.json' has incorrect format! Expected: 'Trees_Ash_Twisted'
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_swamp' for file '/Server/PrefabList/Trees_Ash_swamp.json' has incorrect format! Expected: 'Trees_Ash_Swamp'
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Burnt_dead' for file '/Server/PrefabList/Trees_Burnt_dead.json' has incorrect format! Expected: 'Trees_Burnt_Dead'
+[2026/01/17 13:52:12   WARN]    [AssetStore|PrefabListAsset] Asset key 'Trees_Ash_twisted_Large' for file '/Server/PrefabList/Trees_Ash_twisted_Large.json' has incorrect format! Expected: 'Trees_Ash_Twisted_Large'
+[2026/01/17 13:52:12   WARN] [AssetStore|WorldStructureAsset] Unused key(s) in 'Interpolation' file /Server/HytaleGenerator/WorldStructures/Dev/Interpolation.json: BiomeTransitions
+[2026/01/17 13:52:12   WARN]      [AssetStore|ParticleSystem] Unused key(s) in 'Potion_Health_Implosion' file /Server/Particles/Status_Effect/Potion_Health/Potion_Health_Implosion.particlesystem: Spawners.0.Scale
+[2026/01/17 13:52:12   WARN]      [AssetStore|ParticleSystem] Unused key(s) in 'Potion_Stamina_Burst' file /Server/Particles/Status_Effect/Potion_Stamina/Potion_Stamina_Burst.particlesystem: Spawners.0.Scale
+[2026/01/17 13:52:12   WARN]      [AssetStore|ParticleSystem] Unused key(s) in 'Potion_Morph_Burst' file /Server/Particles/Status_Effect/Potion_Morph/Potion_Morph_Burst.particlesystem: Spawners.0.Scale
+[2026/01/17 13:52:12   WARN]         [AssetStore|Environment] Asset key 'Env_Temple_of_Gaia' for file '/Server/Environments/Unique/Env_Temple_of_Gaia.json' has incorrect format! Expected: 'Env_Temple_Of_Gaia'
+[2026/01/17 13:52:12   INFO]              [CollisionModule|P] Block extents for CollisionSystem is Max=3.0, Min=0.0
+[2026/01/17 13:52:12   INFO]              [HytaleGenerator|P] Loaded Settings asset.
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Mixer_Gradient' file /Server/HytaleGenerator/Biomes/Examples/Example_Mixer_Gradient.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.2.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: pattern1
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Something' file /Server/HytaleGenerator/Biomes/Experimental/Something.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Sampled, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.3.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.1.Inputs.0.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: Taiga1_Rewood_Trees_Mask
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: werstjrtydkm,
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Fluid' file /Server/HytaleGenerator/Biomes/Examples/Example_Fluid.json: Terrain.Density.Inputs.0.CacheSize, MaterialProvider.Empty.Queue.0.BaseHeight
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Prop' file /Server/HytaleGenerator/Biomes/Examples/Example_Prop.json: Terrain.Density.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Fake3dNoise' file /Server/HytaleGenerator/Biomes/Examples/Fake3dNoise.json: Terrain.Density.Inputs.1.CacheSize, Terrain.Density.Inputs.2.Inputs.1.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.2.Inputs.1.Inputs.0.Inputs.1.CacheSize, Terrain.Density.Inputs.2.Inputs.1.Inputs.0.Inputs.2.CacheSize, Terrain.Density.Inputs.2.Inputs.1.Inputs.0.Inputs.3.CacheSize, Terrain.Density.Inputs.2.Inputs.1.Inputs.0.Inputs.4.CacheSize, Terrain.Density.Inputs.2.Inputs.1.Inputs.0.Inputs.5.CacheSize
+[2026/01/17 13:52:12 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Multi_Mixer_Horizontal' file /Server/HytaleGenerator/Biomes/Examples/Example_Multi_Mixer_Horizontal.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.1.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.2.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.3.CacheSize
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'CursebreakerKeyartBiome' file /Server/HytaleGenerator/Biomes/Experimental/CursebreakerKeyartBiome.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Boreal1_Henges' file /Server/HytaleGenerator/Biomes/Boreal1/Boreal1_Henges.json: Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.OffsetX, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.OffsetY, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.OffsetZ, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.OffsetX, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.OffsetY, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.OffsetZ
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: werstjrtydkm,
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Dunes' file /Server/HytaleGenerator/Biomes/Experimental/Dunes.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.1.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.0.Inputs.1.Inputs.1.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.1.Inputs.0.CacheSize, MaterialProvider.Solid.Queue.0.FieldFunction.CacheSize
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   INFO]                [HytaleGenerator] Exported Scanner asset with name 'BasicForestTreeScanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Multi_Mixer_Curve' file /Server/HytaleGenerator/Biomes/Examples/Example_Multi_Mixer_Curve.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.1.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.2.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.1.CacheSize, Terrain.Density.Inputs.1.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'SingleInstance_Test' file /Server/HytaleGenerator/Biomes/Examples/SingleInstance_Test.json: Terrain.Density.Inputs.0.Inputs.1.SingleInstance
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Arches' file /Server/HytaleGenerator/Biomes/Experimental/Arches.json: Terrain.Density.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.ReturnType.Density.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.1.Inputs.0.Inputs.0.ReturnType.Density.Inputs.0.Inputs.0.Inputs.0.CacheSize, Terrain.Density.Inputs.0.Inputs.1.Inputs.0.Inputs.2.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: BasicForestTreeScanner
+[2026/01/17 13:52:12   INFO]                [HytaleGenerator] Exported Scanner asset with name 'BasicForestTreeScanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: Desert1_Rivers_Cliffs
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Basic' file /Server/HytaleGenerator/Biomes/Basic.json: Props.0.Assignments.Prop.BoxBlockType
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Plains1_Deeproot' file /Server/HytaleGenerator/Biomes/Plains1/Plains1_Deeproot.json: Props.5.Positions.OffsetX, Props.5.Positions.OffsetY, Props.5.Positions.OffsetZ
+[2026/01/17 13:52:12 SEVERE]                           [SERR] Reallocate: 131072 to 1179648
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Example_Mixer' file /Server/HytaleGenerator/Biomes/Examples/Example_Mixer.json: Terrain.Density.Inputs.0.CacheSize, Terrain.Density.Inputs.1.Inputs.2.Inputs.0.CacheSize
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Volcanic1_Jungle' file /Server/HytaleGenerator/Biomes/Volcanic1/Volcanic1_Jungle.json: Props.1.Positions.OffsetX, Props.1.Positions.OffsetY, Props.1.Positions.OffsetZ, Props.2.Positions.OffsetX, Props.2.Positions.OffsetY, Props.2.Positions.OffsetZ, Props.3.Positions.OffsetX, Props.3.Positions.OffsetY, Props.3.Positions.OffsetZ
+[2026/01/17 13:52:12   INFO]                [HytaleGenerator] Exported Scanner asset with name 'Desert1_Rocky_Trees_Dry_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: Plains1-Gorges-BaseTerrain
+[2026/01/17 13:52:12   INFO]                [HytaleGenerator] Exported Scanner asset with name 'Desert1_Rocky_Trees_Palm_Scanner' with asset id 'null
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: River-Boulders-Mask
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Generative_Buildings' file /Server/HytaleGenerator/Biomes/Generative/Generative_Buildings.json: Terrain.Density.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.Positions.OffsetX, Terrain.Density.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.Positions.OffsetY, Terrain.Density.Inputs.1.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Inputs.0.Positions.Positions.Positions.OffsetZ
+[2026/01/17 13:52:12   WARN]                [HytaleGenerator] Duplicate export name for asset: Peak
+[2026/01/17 13:52:12   WARN]          [AssetStore|BiomeAsset] Unused key(s) in 'Desert1_Oasis' file /Server/HytaleGenerator/Biomes/Desert1/Desert1_Oasis.json: Props.2.Positions.Positions.OffsetX, Props.2.Positions.Positions.OffsetY, Props.2.Positions.Positions.OffsetZ, Props.3.Positions.Positions.OffsetX, Props.3.Positions.Positions.OffsetY, Props.3.Positions.Positions.OffsetZ, Props.4.Positions.Positions.OffsetX, Props.4.Positions.Positions.OffsetY, Props.4.Positions.Positions.OffsetZ, Props.5.Positions.Positions.OffsetX, Props.5.Positions.Positions.OffsetY, Props.5.Positions.Positions.OffsetZ, Props.6.Positions.Positions.OffsetX, Props.6.Positions.Positions.OffsetY, Props.6.Positions.Positions.OffsetZ
+[2026/01/17 13:52:12   WARN] [AssetStore|CustomConnectedBlockTemplateAsset] Unused key(s) in 'DoorLargeConnectedBlockTemplate' file /Server/Item/CustomConnectedBlockTemplates/DoorLargeConnectedBlockTemplate.json: ConnectsToOtherTemplates
+[2026/01/17 13:52:12   WARN] [AssetStore|CustomConnectedBlockTemplateAsset] Unused key(s) in 'RailsConnectedBlockTemplate' file /Server/Item/CustomConnectedBlockTemplates/RailsConnectedBlockTemplate.json: MaterialName
+[2026/01/17 13:52:12   WARN]        [AssetStore|EntityEffect] Unused key(s) in 'Food_EffectCondition_Buff_Small' file /Server/Entity/Effects/Food/Buff/_Deprecated/Food_EffectCondition_Buff_Small.json: Type, EntityEffectIds, Match, Next, Failed
+[2026/01/17 13:52:12   WARN]        [AssetStore|EntityEffect] Unused key(s) in 'Food_EffectCondition_Buff_Medium' file /Server/Entity/Effects/Food/Buff/_Deprecated/Food_EffectCondition_Buff_Medium.json: Type, EntityEffectIds, Match, Next, Failed
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in 'Ice_Bolt_Miss' file /Server/Item/Interactions/Weapons/Staff/Ice/Ice_Bolt_Miss.json: Effects.WorldParticles
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in 'Explode_Generic' file /Server/Item/Interactions/Explosions/Explode_Generic.json: Config.Knockback.VelocityConfig.Direction
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in 'Weapon_Battleaxe_Primary_Downstrike_Force' file /Server/Item/Interactions/Weapons/Battleaxe/Primary/Downstrike/Weapon_Battleaxe_Primary_Downstrike_Force.json: MouseSensitivityAdjustmentTarget, MouseSensitivityAdjustmentDuration
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in 'Weapon_Daggers_Primary_Pounce_Stab_Force' file /Server/Item/Interactions/Weapons/Daggers/Primary/Pounce/Stab/Weapon_Daggers_Primary_Pounce_Stab_Force.json: VelocityType
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in 'Ice_Ball_Miss' file /Server/Item/Interactions/Weapons/Staff/Ice/Ice_Ball_Miss.json: Effects.WorldParticles
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Stamina_Bar_Flash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Stamina_Broken_Check_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *DamageEntityParent_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Block_Break_Adventure_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Block_Break_Adventure_Failed
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Shortbow_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Shortbow_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Crossbow_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Crossbow_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Crossbow_Shot_Standard_Projectile_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Common_Guard_Shove_Animation_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Daggers_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Daggers_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Shield_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Shield_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Stick_Attack_Next_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Stick_Attack_Next_0.8
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Mace_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Mace_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Sword_Secondary_Guard_Bash_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Weapon_Sword_Secondary_Guard_Bash_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Bow_Two_Handed_Ability2_Arrow_Shoot_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Bow_Two_Handed_Ability2_Arrow_Shoot_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Daggers_Stab_Flurry_Left_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Daggers_Stab_Flurry_Right_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Simple_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction *Shortbow_Volley_Shoot_Inner_Next
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in '*Weapon_Sword_Signature_Vortexstrike_Spin_Selector_Next': Next
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in '*Weapon_Daggers_Primary_Pounce_Stab_Selector_Next': Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **DamageEntityParent_Next_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **DamageEntityParent_Next_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **DamageEntityParent_Next_Interactions_2
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **DamageEntityParent_Next_Interactions_3
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Shortbow_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Sword_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Shield_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Crossbow_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Crossbow_Shot_Standard_Projectile_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Stick_Attack_Next_0_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Stick_Attack_Next_0.8_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Right_Charged_Selector_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Left_Charged_StaminaCondition_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Block_Break_Failed_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Common_Guard_Shove_Selector_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Battleaxe_Primary_Downstrike_StaminaCondition_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Up_Left_Charged_Selector_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Crossbow_Damage_Combo_Projectile_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Right_Charged_StaminaCondition_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Daggers_Primary_Pounce_StaminaCondition_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Stick_Fire_Spawn_Trap_Next_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Stick_Fire_Spawn_Trap_Next_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Stick_Fire_Spawn_Trap_Failed_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Left_Charged_Selector_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Consume_Charge_Durability_Interactions_1_Next_3.0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Consume_Charge_Durability_Interactions_1_Failed
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Mace_Primary_Swing_Up_Left_Charged_StaminaCondition_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction **Weapon_Sword_Primary_Thrust_StaminaCondition_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Common_Guard_Shove_Selector_Next_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Daggers_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Shortbow_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Primary_Swing_Up_Left_Charged_StaminaCondition_Next_Next_Next_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Primary_Swing_Right_Charged_StaminaCondition_Next_Next_Next_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Sword_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Shield_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Primary_Swing_Left_Charged_StaminaCondition_Next_Next_Next_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_0
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_2
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Next_3.0_Interactions_3
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Consume_Charge_Durability_Interactions_1_Failed_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Crossbow_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Mace_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ***Weapon_Battleaxe_Secondary_Guard_Bash_Interactions_1_Next_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ****Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next_Interactions_1
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ****Bow_Two_Handed_Ability1_Arrow_Volley_Interactions_0_Interactions_1_Next_Interactions_2
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ****Weapon_Mace_Primary_Swing_Up_Left_Charged_StaminaCondition_Next_Next_Next_0_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ****Weapon_Mace_Primary_Swing_Right_Charged_StaminaCondition_Next_Next_Next_0_Next
+[2026/01/17 13:52:12   WARN]                         [Hytale] Missing interaction ****Weapon_Mace_Primary_Swing_Left_Charged_StaminaCondition_Next_Next_Next_0_Next
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Ice_Ball_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Ice_Bolt_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Scarak_Seeker_Spitball_Interactions_ProjectileMiss_Interactions_0': Effects.WorldParticles
+[2026/01/17 13:52:12   WARN]         [AssetStore|Interaction] Unused key(s) in '**Projectile_Config_Scarak_Seeker_Spitball_Interactions_ProjectileHit_Interactions_0': Entity
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Temple_Light_Statue'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Ingredient_Hay'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Wood_Softwood_Planks'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Feran_Bed'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_In'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Gate_Open_Out'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thin'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Thick'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thin'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find hitbox name 'Fence_Corner_Thick'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Furniture_Crude_Bed'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Grass'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt_Poisoned'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Mud'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Gravel_Sand'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Dirt'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Soil_Clay'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Stone'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Marble'
+[2026/01/17 13:52:12   WARN]               [BlockSetModule|P] Creating block sets: Failed to find block name 'Rock_Chalk'
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Tool_Hatchet_Crude
+Path: /Server/Item/Items/Tool/Hatchet/Tool_Hatchet_Crude.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Bench_Builders
+Path: /Server/Item/Items/Bench/Bench_Builders.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Furniture_Crude_Torch
+Path: /Server/Item/Items/Furniture/Crude/Unique/Furniture_Crude_Torch.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Bench_Campfire
+Path: /Server/Item/Items/Bench/Bench_Campfire.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Tool_Pickaxe_Crude
+Path: /Server/Item/Items/Tool/Pickaxe/Tool_Pickaxe_Crude.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Furniture_Crude_Chest_Small
+Path: /Server/Item/Items/Furniture/Crude/Furniture_Crude_Chest_Small.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Furniture_Crude_Bed
+Path: /Server/Item/Items/Furniture/Crude/Furniture_Crude_Bed.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:12   WARN]                [AssetStore|Item] Failed to validate asset!
+Id: Weapon_Sword_Crude
+Path: /Server/Item/Items/Weapon/Sword/Weapon_Sword_Crude.json
+Key: Recipe
+Results:
+	WARNING: Bench Requirement in recipe for 'Fieldcraft' should not have a delay (TimeSeconds) set!
+
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Template_Weapon_Crossbow_InteractionVars_Guard_Bash_Interactions_1': Effects, StatModifiers
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Thorium_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Iron_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Bone_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Wood_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Cane_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Copper_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Onion_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Template_Weapon_Shield_InteractionVars_Guard_Bash_Interactions_1': Effects, StatModifiers
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Halloween_Broomstick_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Cobalt_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Doomed_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Adamantite_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Mithril_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Bo_Bamboo_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Wood_Kweebec_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Wood_Rotten_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Frost_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Template_Weapon_Shortbow_InteractionVars_Guard_Bash_Interactions_1': Effects, StatModifiers
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Purple_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Red_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Wizard_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Fire_Trork_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Bronze_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Onyxium_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Flame_InteractionVars_Fireball_Impact_2_Interactions_0': EntityStatsOnHit
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Bo_Wood_InteractionVars_Staff_Cast_Summon_Charged_Interactions_0': Costs
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Shield_Copper_InteractionVars_Guard_Bash_Interactions_0': Effects, StatModifiers
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Weapon_Staff_Crystal_Flame_InteractionVars_Fireball_Impact_3_Interactions_0': EntityStatsOnHit
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Crop_Mushroom_Glowing_Red_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Crop_Mushroom_Glowing_Orange_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Crop_Mushroom_Glowing_Green_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Crop_Mushroom_Glowing_Violet_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Seaweed_Grass_Stack_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Crop_Mushroom_Glowing_Purple_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Plant_Crop_Mushroom_Glowing_Blue_Interactions_Secondary_Interactions_0_Next': Effects
+[2026/01/17 13:52:13   WARN]                [AssetStore|Item] Failed to find inherited parent asset Template_Crop_Item (BlockType) for Plant_Crop_Pumpkin_Item
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Teleporter_Interactions_Use_Interactions_0': Page.WarpNameWordList
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '**Portal_Device_Interactions_Use_Interactions_0': Page.Config.GameplayConfig
+[2026/01/17 13:52:13   WARN]           [AssetStore|BlockType] Unused key(s) in '*Prototype_Geyser_State_Definitions_Off': SoundEventId
+[2026/01/17 13:52:13   WARN]           [AssetStore|BlockType] Unused key(s) in '*Prototype_Geyser_State_Definitions_On': SoundEventId
+[2026/01/17 13:52:13   WARN]         [AssetStore|Interaction] Unused key(s) in '***Teleporter_State_Definitions_Active_Interactions_Use_Interactions_0': Page.WarpNameWordList
+[2026/01/17 13:52:13   WARN]      [AssetStore|GameplayConfig] Unused key(s) in 'Default' file /Server/GameplayConfigs/Default.json: Ping
+[2026/01/17 13:52:13   WARN]      [AssetStore|GameplayConfig] Unused key(s) in 'Default_Instance' file /Server/GameplayConfigs/Default_Instance.json: Death.LoseItems
+[2026/01/17 13:52:13   INFO]            [AssetRegistryLoader] Took 2sec 46ms 285us 12ns to load all assets
+[2026/01/17 13:52:13   INFO]                         [Hytale] Loading NPC assets phase...
+[2026/01/17 13:52:13   INFO]                          [NPC|P] Starting to load NPC builders!
+[2026/01/17 13:52:13   WARN]                          [NPC|P] Replacing asset 'Test_Patrol_Path' of file '/Server/NPC/Roles/_Core/Tests_Development/Test_Patrol_Path.json' with other file '/Server/NPC/Roles/_Core/Tests/Paths/Test_Patrol_Path.json'
+[2026/01/17 13:52:14   INFO]                          [NPC|P] Validating loaded NPC configurations...
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Wave does not exist for model Temple_Mithril_Guard!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Eat does not exist for model Hatworm!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Curious does not exist for model Hatworm!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation GreetAnimation does not exist for model Hatworm!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Sleep does not exist for model Wraith_Lantern!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Wraith_Lantern!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Laydown does not exist for model Wraith_Lantern!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Wake does not exist for model Wraith_Lantern!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Eat does not exist for model Spark_Living!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Curious does not exist for model Spark_Living!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation GreetAnimation does not exist for model Spark_Living!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Eat does not exist for model Trillodon!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Curious does not exist for model Trillodon!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation GreetAnimation does not exist for model Trillodon!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Wave does not exist for model Frog_Orange!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation GreetAnimation does not exist for model Tortoise!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Sleep does not exist for model Slug_Magma!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Slug_Magma!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Laydown does not exist for model Slug_Magma!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Wake does not exist for model Slug_Magma!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Leap does not exist for model Goblin_Duke!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Leap does not exist for model Goblin_Duke!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Leap does not exist for model Goblin_Duke_Large!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Kweebec_Rootling!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Wave does not exist for model Frog_Blue!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Eat does not exist for model Lizard_Sand!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Curious does not exist for model Lizard_Sand!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation GreetAnimation does not exist for model Lizard_Sand!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Scarak_Broodmother!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Sleep does not exist for model Tuluk_Fisherman!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Alerted does not exist for model Tuluk_Fisherman!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Laydown does not exist for model Tuluk_Fisherman!
+[2026/01/17 13:52:14   WARN]                          [NPC|P] Animation Wake does not exist for model Tuluk_Fisherman!
+[2026/01/17 13:52:14   INFO]                          [NPC|P] Validation complete.
+[2026/01/17 13:52:14   INFO]                          [NPC|P] Loaded 895 NPC configurations, Test: 243, Component: 143, Abstract: 50, Variant: 417, Generic: 44
+[2026/01/17 13:52:14   INFO]                         [Hytale] Loading NPC assets phase completed! Boot time 6sec 593ms 125us 785ns, Took 959ms 419us 594ns
+[2026/01/17 13:52:14   INFO]                         [Hytale] Validating Spawn assets phase...
+[2026/01/17 13:52:14   INFO]                         [Hytale] Spawn assets validation phase completed! Boot time 6sec 593ms 993us 938ns, Took 813us 691ns
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 0 entries for 'ru-RU' from /Server/Languages
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 0 entries for 'pt-BR' from /Server/Languages
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 0 entries for 'fr-FR' from /Server/Languages
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 0 entries for 'es-ES' from /Server/Languages
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 7583 entries for 'en-US' from /Server/Languages
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 0 entries for 'de-DE' from /Server/Languages
+[2026/01/17 13:52:14   INFO]                   [I18nModule|P] Loaded 52 entries from /Server/Languages/fallback.lang
+-=|Setup|0.0
+[2026/01/17 13:52:14   INFO]                   [HytaleServer] Starting plugin manager...
+-=|Starting|1.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:WorldLocationCondition
+-=|Starting|2.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ServerManager
+-=|Starting|4.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:SprintForce
+-=|Starting|5.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:MigrationModule
+-=|Starting|6.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:AssetModule
+-=|Starting|7.000000000000001
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ConsoleModule
+-=|Starting|9.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:TimeModule
+-=|Starting|10.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:CollisionModule
+-=|Starting|11.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:DebugPlugin
+-=|Starting|12.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:SplitVelocity
+-=|Starting|14.000000000000002
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Model
+-=|Starting|15.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:CrouchSlide
+[2026/01/17 13:52:14   WARN]   [io.netty.bootstrap.Bootstrap] Unknown channel option 'IP_DONTFRAGMENT' for channel '[id: 0xdc54f419]' of type 'class io.netty.channel.epoll.EpollDatagramChannel'
+[2026/01/17 13:52:14   INFO]                [ServerManager|P] Listening on /127.0.0.1:53427 and took 1ms 945us 591ns
+-=|Starting|16.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Universe
+-=|Starting|17.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:TagSet
+-=|Starting|19.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:AccessControlModule
+-=|Starting|20.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:CommandMacro
+-=|Starting|21.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:SafetyRoll
+-=|Starting|22.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:HytaleGenerator
+-=|Starting|23.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ItemModule
+-=|Starting|25.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:CommonAssetModule
+-=|Starting|26.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:CosmeticsModule
+-=|Starting|27.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:I18nModule
+-=|Starting|28.000000000000004
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:LegacyModule
+-=|Starting|30.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:LANDiscovery
+-=|Starting|31.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Mantling
+-=|Starting|32.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:PermissionsModule
+-=|Starting|33.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Deployables
+-=|Starting|35.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockSetModule
+-=|Starting|36.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:FlyCameraModule
+-=|Starting|37.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:EntityModule
+-=|Starting|38.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockTick
+-=|Starting|40.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockHealthModule
+-=|Starting|41.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:InteractionModule
+-=|Starting|42.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ServerPlayerListModule
+-=|Starting|43.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ConnectedBlocksModule
+-=|Starting|44.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockTypeModule
+-=|Starting|46.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockModule
+-=|Starting|47.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Weather
+[2026/01/17 13:52:14   INFO]                  [World|default] Loading world 'default' with generator type: 'HytaleWorldGenProvider{name='Default', path='null'}' and chunk storage: 'DefaultChunkStorageProvider{DEFAULT=IndexedStorageChunkStorageProvider{}}'...
+-=|Starting|48.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Reputation
+-=|Starting|49.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Parkour
+-=|Starting|51.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ProjectileModule
+-=|Starting|52.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Teleport
+-=|Starting|53.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:WorldGen
+-=|Starting|54.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockStateModule
+-=|Starting|56.00000000000001
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:AssetEditor
+-=|Starting|56.99999999999999
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Ambience
+-=|Starting|57.99999999999999
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Teleporter
+-=|Starting|59.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockPhysics
+-=|Starting|60.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BuilderTools
+-=|Starting|62.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Farming
+-=|Starting|63.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Fluid
+[2026/01/17 13:52:14   INFO]                [BarterShopState] No saved barter shop state found, starting fresh
+[2026/01/17 13:52:14   INFO]                         [Shop|P] Barter shop state initialized
+-=|Starting|64.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Shop
+-=|Starting|65.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Crafting
+[2026/01/17 13:52:14   INFO]           [SingleplayerModule|P] Client PID: 141045
+-=|Starting|67.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:SingleplayerModule
+-=|Starting|68.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ShopReputation
+-=|Starting|69.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:EntityStatsModule
+-=|Starting|70.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:BlockSpawner
+-=|Starting|72.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:PrefabSpawnerModule
+-=|Starting|73.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Instances
+-=|Starting|74.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Objectives
+-=|Starting|75.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Path
+-=|Starting|77.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:EntityUIModule
+-=|Starting|78.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Stash
+-=|Starting|79.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:StaminaModule
+-=|Starting|80.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ObjectiveShop
+-=|Starting|81.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:ObjectiveReputation
+-=|Starting|83.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:CreativeHub
+-=|Starting|84.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:DamageModule
+-=|Starting|85.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Camera
+-=|Starting|86.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:NPC
+-=|Starting|88.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Mounts
+-=|Starting|89.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Flock
+-=|Starting|90.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:NPCEditor
+[2026/01/17 13:52:14   INFO]                  [World|default] Added world 'default' - Seed: 1768657934570, GameTime: 0001-01-01T05:30:00Z
+-=|Starting|91.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Memories
+-=|Starting|93.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:NPCShop
+-=|Starting|94.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Beds
+-=|Starting|95.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Portals
+-=|Starting|96.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:NPCCombatActionEvaluator
+-=|Starting|98.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:NPCReputation
+[2026/01/17 13:52:14   INFO]                     [Spawning|P] Successfully set up 96 world spawn configurations
+[2026/01/17 13:52:14   INFO]                     [Spawning|P] Successfully set up 69 beacon spawn configurations
+-=|Starting|99.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:Spawning
+-=|Starting|100.0
+[2026/01/17 13:52:14   INFO]                  [PluginManager] Enabled plugin Hytale:NPCObjectives
+[2026/01/17 13:52:14   INFO]                   [HytaleServer] Plugin manager started! Startup time so far: 6sec 652ms 51us 14ns
+-=|Enabled|0
+[2026/01/17 13:52:14   INFO]                   [HytaleServer] Getting Hytale Universe ready...
+[2026/01/17 13:52:14   INFO]                 [WorldGenerator] Set prefab-store to: ASSETS
+[2026/01/17 13:52:15   INFO]                 [WorldGenerator] Initialized ChunkGenerator-0 executor
+[2026/01/17 13:52:15   INFO]                 [WorldGenerator] Found location for unique zone 'Zone1_Spawn' -> Position: {-429, 256}, Score: 75.66%, Time: 2ms
+[2026/01/17 13:52:15   INFO]                 [WorldGenerator] Found location for unique zone 'Zone1_Temple' -> Position: {-185, 202}, Score: 82.39%, Time: 0ms
+[2026/01/17 13:52:15   INFO]                [World|default|M] Initializing world map generator: com.hypixel.hytale.server.worldgen.map.GeneratorChunkWorldMap@3f4106b
+[2026/01/17 13:52:15   INFO]                [World|default|M] Generating Points of Interest...
+[2026/01/17 13:52:15   INFO]                [World|default|M] Finished Generating Points of Interest!
+[2026/01/17 13:52:15   INFO]                     [Teleport|P] Loaded 0 warps (No warps.json found)
+[2026/01/17 13:52:15   INFO]                   [HytaleServer] Universe ready!
+[2026/01/17 13:52:15   INFO]                  [AssetModule|P] Total Loaded Assets: Interaction: 7055, RootInteraction: 5310, BlockType: 3951, Item: 3011, CraftingRecipe: 1611, ParticleSpawner: 1577, SoundEvent: 1154, ItemDropList: 735, ParticleSystem: 532, ModelAsset: 432, SpawnMarker: 243, BlockBoundingBoxes: 234, Condition: 228, ItemPlayerAnimations: 182, EntityEffect: 170, AmbienceFX: 167, TagPattern: 126, ResourceType: 124, Environment: 113, ProjectileConfig: 111, AssignmentsAsset: 111, WorldNPCSpawn: 96, AudioCategory: 93, CombatActionOption: 87, Projectile: 86, Weather: 86, PrefabListAsset: 77, NPCGroup: 71, BeaconNPCSpawn: 69, BiomeAsset: 67, Trail: 59, FlockAsset: 58, BlockSet: 55, BlockSoundSet: 53, CameraEffect: 49, CameraShake: 49, BlockSpawnerTable: 46, BlockGroup: 43, ScriptedBrushAsset: 37, ItemSoundSet: 36, ModelVFX: 33, BlockParticleSet: 29, BalanceAsset: 28, AttitudeGroup: 27, ReverbEffect: 22, Fluid: 15, DamageCause: 14, EntityStatType: 13, ViewBobbing: 12, ResponseCurve: 12, WorldStructureAsset: 12, BlockTypeListAsset: 12, ItemQuality: 12, ObjectiveAsset: 12, CustomConnectedBlockTemplateAsset: 11, BlockMigration: 10, DensityAsset: 9, MacroCommandBuilder: 8, ItemToolSpec: 7, GameplayConfig: 5, FluidFX: 5, PortalType: 5, BlockBreakingDecal: 4, GrowthModifierAsset: 4, ObjectiveLocationMarkerAsset: 4, ItemCategory: 4, SpawnSuppression: 3, ItemReticleConfig: 3, MovementConfig: 3, UnarmedInteractions: 3, EqualizerEffect: 3, BarterShopAsset: 2, SoundSet: 2, HitboxCollisionConfig: 2, ObjectiveLineAsset: 2, EntityUIComponent: 2, RepulsionConfig: 2, GameModeType: 2, FarmingCoopAsset: 1, SettingsAsset: 1, FieldcraftCategory: 1, WordList: 1, PrefabEditorCreationSettings: 1, ItemAttitudeGroup: 1, BuilderToolItemReferenceAsset: 1, ReachLocationMarkerAsset: 1, ReputationRank: 0, ShopAsset: 0, BlockMaskAsset: 0, DeployableSpawner: 0, ReputationGroup: 0
+[2026/01/17 13:52:15   INFO]                   [HytaleServer] ===============================================================================================
+[2026/01/17 13:52:15   INFO]                   [HytaleServer]          Hytale Server Booted! [Singleplayer, Fresh Universe] took 7sec 567ms 110us 205ns
+[2026/01/17 13:52:15   INFO]                   [HytaleServer] ===============================================================================================
+>> Singleplayer Ready <<
+[2026/01/17 13:52:15   INFO]                  [QUICTransport] Received connection from QuicConnectionAddress{connId=} (/127.0.0.1:38371) to QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:53427)
+[2026/01/17 13:52:17   INFO]                         [Hytale] Received stream QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0) to QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:53427, streamId=0)
+[2026/01/17 13:52:17 FINEST]                    [LoginTiming] setTimeout-initial
+[2026/01/17 13:52:17   FINE]                    [LoginTiming] Registered took 1ms 169us 641ns
+[2026/01/17 13:52:17   FINE]                    [LoginTiming] Connect took 117ms 235us 651ns
+[2026/01/17 13:52:17   INFO]                         [Hytale] Starting development flow for alerty (34ef6c2d-13be-3de0-ba01-6bca1d9af96b) from QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0)
+[2026/01/17 13:52:17   INFO]          [PasswordPacketHandler] Connection complete for alerty (34ef6c2d-13be-3de0-ba01-6bca1d9af96b), transitioning to setup
+[2026/01/17 13:52:17 FINEST]                    [LoginTiming] setTimeout-send-world-settings took 2ms 439us 321ns
+[2026/01/17 13:52:17   INFO]                         [Hytale] {Password(QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0)), alerty} compression now handled by encoder
+[2026/01/17 13:52:17   FINE]                    [LoginTiming] Load Player Config took 819us 171ns
+[2026/01/17 13:52:17 FINEST]                    [LoginTiming] setTimeout-receive-assets-request took 49ms 25us 20ns
+[2026/01/17 13:52:17   FINE]                    [LoginTiming] Request Assets took 113ms 372us 733ns
+[2026/01/17 13:52:17 FINEST]                    [LoginTiming] setTimeout-send-assets took 666us 985ns
+[2026/01/17 13:52:17   FINE]                    [LoginTiming] Send Common Assets took 235us 593ns
+[2026/01/17 13:52:17   WARN]                         [Hytale] Missing interaction Effect
+[2026/01/17 13:52:18   FINE]                    [LoginTiming] Send Config Assets took 354ms 755us 972ns
+[2026/01/17 13:52:20   FINE]                    [LoginTiming] Player Options took 1sec 917ms 977us 556ns
+[2026/01/17 13:52:20   INFO]                     [Universe|P] Adding player 'alerty (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:52:20 FINEST]                    [LoginTiming] Load Player Config took 9ms 520us 726ns
+[2026/01/17 13:52:20 FINEST]                    [LoginTiming] Processed Referral took 998us 488ns
+[2026/01/17 13:52:20   WARN]                         [Hytale] {Playing(QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0)), 34ef6c2d-13be-3de0-ba01-6bca1d9af96b, alerty} Added future for ClientReady packet?
+[2026/01/17 13:52:20   INFO]                  [World|default] Adding player 'alerty' to world 'default' at location null (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:52:20   INFO]                         [Hytale] {Playing(QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0)), 34ef6c2d-13be-3de0-ba01-6bca1d9af96b, alerty}: Sent com.hypixel.hytale.protocol.packets.player.JoinWorld@233d1fee
+[2026/01/17 13:52:20 FINEST]                    [LoginTiming] setTimeout-add-to-universe took 7ms 494us 603ns
+[2026/01/17 13:52:20   WARN]                         [Hytale] {Playing(QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0)), 34ef6c2d-13be-3de0-ba01-6bca1d9af96b, alerty}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da7
+[2026/01/17 13:52:21 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 46ms 526us 629ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-14, z=7, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:21   INFO]                         [Entity] Assigning default gamemode Adventure to player!
+[2026/01/17 13:52:21   INFO]                  [World|default] Player 'alerty' joined world 'default' at location Vector3d{x=-444.5, y=117.10000002384186, z=251.5} (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:52:21 FINEST]                    [LoginTiming] Add to World took 1sec 436ms 42us 252ns
+[2026/01/17 13:52:21   FINE]                    [LoginTiming] Add To Universe took 69us 951ns
+[2026/01/17 13:52:21   INFO]                [WorldMapTracker] Started Generating Map!
+[2026/01/17 13:52:21   WARN]                         [Entity] getPositionComponent called async [CONTEXT ratelimit_period="5 MINUTES" ]
+java.lang.Throwable
+	at com.hypixel.hytale.server.core.entity.Entity.getTransformComponent(Entity.java:278)
+	at com.hypixel.hytale.server.core.universe.world.WorldMapTracker.tick(WorldMapTracker.java:151)
+	at com.hypixel.hytale.server.core.universe.world.worldmap.WorldMapManager.tick(WorldMapManager.java:149)
+	at com.hypixel.hytale.server.core.util.thread.TickingThread.run(TickingThread.java:89)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+[2026/01/17 13:52:22 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 39ms 228us 175ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-13, z=7, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 66ms 499us 161ns > TICK_STEP, WorldChunk{x=-13, z=8, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 58ms 249us 357ns > TICK_STEP, WorldChunk{x=-14, z=8, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 80ms 281us 595ns > TICK_STEP, WorldChunk{x=-15, z=7, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 116ms 241us 942ns > TICK_STEP, WorldChunk{x=-15, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 130ms 724us 544ns > TICK_STEP, WorldChunk{x=-13, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 54ms 488us 961ns > TICK_STEP, WorldChunk{x=-12, z=7, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 168ms 44us 388ns > TICK_STEP, WorldChunk{x=-14, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 52ms 938us 494ns > TICK_STEP, WorldChunk{x=-12, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 202ms 354us 339ns > TICK_STEP, WorldChunk{x=-15, z=8, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22   WARN]                  [World|default] Task took 39ms 267us 179ns ns: java.util.concurrent.CompletableFuture$UniApply@1010437
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 114ms 731us 9ns > TICK_STEP, WorldChunk{x=-12, z=8, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:22 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 73ms 242us 801ns > TICK_STEP, WorldChunk{x=-12, z=7, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 46ms 159us 107ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-12, z=9, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 48ms 796us 470ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-13, z=9, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 37ms 233us 913ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-16, z=6, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:23 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 34ms 47us 297ns > TICK_STEP, WorldChunk{x=-14, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 46ms 825us 491ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-15, z=5, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 46ms 703us 863ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-16, z=7, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:23   WARN]                     [Spawning|P] Marker cee700b2-4384-3f22-8654-f7b2f1926fae at Vector3d{x=-485.8542938232422, y=41.099143981933594, z=234.361328125} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:52:23 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 38ms 810us 18ns > TICK_STEP, WorldChunk{x=-11, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:23 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 52ms 644us 982ns > TICK_STEP, WorldChunk{x=-11, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:23 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 35ms 834us 860ns > TICK_STEP, WorldChunk{x=-11, z=7, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:23 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 49ms 553us 886ns > TICK_STEP, WorldChunk{x=-11, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 56ms 817us 854ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-11, z=8, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:23 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 44ms 439us 521ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-11, z=5, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 61ms 146us 398ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-14, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 35ms 295us 936ns > TICK_STEP, WorldChunk{x=-12, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 46ms 627us 259ns > TICK_STEP, WorldChunk{x=-11, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 38ms 847us 369ns > TICK_STEP, WorldChunk{x=-17, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 43ms 21us 403ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-17, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 54ms 832us 258ns > TICK_STEP, WorldChunk{x=-17, z=8, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 41ms 515us 169ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-17, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 35ms 864us 85ns > TICK_STEP, WorldChunk{x=-13, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 48ms 469us 936ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-17, z=7, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 43ms 21us 464ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-14, z=4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 38ms 452us 276ns > TICK_STEP, WorldChunk{x=-17, z=5, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 46ms 301us 987ns > TICK_STEP, WorldChunk{x=-15, z=4, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 45ms 207us 717ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-13, z=4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 47ms 844us 208ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-16, z=4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 40ms 23us 642ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-17, z=6, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 40ms 834us 878ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-12, z=4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 41ms 549us 373ns > TICK_STEP, WorldChunk{x=-10, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 52ms 603us 424ns > TICK_STEP, WorldChunk{x=-11, z=4, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:24 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 48ms 601us 172ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-10, z=7, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 67ms 475us 979ns > TICK_STEP, WorldChunk{x=-10, z=8, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:24 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 52ms 59us 209ns > TICK_STEP, WorldChunk{x=-11, z=4, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 52ms 421us 531ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-10, z=5, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 35ms 394us 612ns > TICK_STEP, WorldChunk{x=-10, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:25   WARN]                     [Spawning|P] Marker 9374cb5c-2cf2-3f2e-a93f-e546aae6c968 at Vector3d{x=-328.59208635253907, y=66.00038184814457, z=224.42152243652345} removed due to repeated spawning fails of Goblin_Thief with reason: TOO_HIGH
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 33ms 731us 703ns > TICK_STEP, WorldChunk{x=-12, z=11, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 35ms 889us 644ns > TICK_STEP, WorldChunk{x=-13, z=11, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 41ms 114us 745ns > TICK_STEP, WorldChunk{x=-10, z=11, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 44ms 975us 200ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-14, z=11, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 46ms 228us 347ns > TICK_STEP, WorldChunk{x=-12, z=11, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 40ms 996us 442ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-11, z=11, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 34ms 701us 67ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-17, z=11, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:25 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 33ms 810us 291ns > TICK_STEP, WorldChunk{x=-18, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 37ms 551us > TICK_STEP, Has GC Run: false, WorldChunk{x=-16, z=11, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 55ms 81us 367ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-18, z=11, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 39ms 478us 66ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-18, z=10, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:25 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 50ms 147us 933ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-18, z=8, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 54ms 825us 4ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-18, z=5, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 37ms 68us 221ns > TICK_STEP, WorldChunk{x=-18, z=6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26   WARN]                         [Hytale] {Playing(QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0)), 34ef6c2d-13be-3de0-ba01-6bca1d9af96b, alerty}: Received com.hypixel.hytale.protocol.packets.player.ClientReady@9da1
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 40ms 110us 726ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-18, z=4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 48ms 511us 804ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-17, z=3, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 42ms 272us 504ns > TICK_STEP, WorldChunk{x=-16, z=3, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 37ms 616us 683ns > TICK_STEP, WorldChunk{x=-14, z=3, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 43ms 119us 358ns > TICK_STEP, WorldChunk{x=-13, z=3, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.blocktick.BlockTickPlugin$$Lambda/0x000000004ef0f800@62ff14cd
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 34ms 334us 888ns > TICK_STEP, WorldChunk{x=-14, z=3, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 35ms 389us 462ns > TICK_STEP, WorldChunk{x=-13, z=3, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 70ms 478us 719ns > TICK_STEP, WorldChunk{x=-15, z=3, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 60ms 765us 432ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-12, z=3, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 36ms 543us 814ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-10, z=3, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 39ms 416us 630ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-9, z=4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 41ms 398us 129ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-9, z=5, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:26 SEVERE]                  [World|default] Took too long to run pre-load process hook for chunk: 36ms 52us 420ns > TICK_STEP, WorldChunk{x=-9, z=7, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:26 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 37ms 988us 583ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-9, z=3, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:27 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 34ms 979us 892ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-9, z=9, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:27 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 38ms 94us 863ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-9, z=6, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:27 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 34ms 514us 55ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-9, z=10, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:27   WARN]                     [Spawning|P] Marker 4a1447b7-048e-3478-b77a-1a0a6596e358 at Vector3d{x=-341.6906337738037, y=34.0, z=313.65530014038086} removed due to repeated spawning fails of Skeleton_Incandescent_Head with reason: NO_ROOM
+[2026/01/17 13:52:27   WARN]                     [Spawning|P] Marker f59b36f1-915f-31e2-b252-2b5215f82946 at Vector3d{x=-437.8542938232422, y=41.099143981933594, z=126.361328125} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:52:27   WARN]                     [Spawning|P] Marker 6571cb16-2369-35a5-9ec6-d3ee71d636ea at Vector3d{x=-397.4093432128906, y=74.99942705078125, z=339.3564664306641} removed due to repeated spawning fails of Goblin_Scrapper with reason: TOO_HIGH
+[2026/01/17 13:52:29   WARN]                     [Spawning|P] Marker 9f24f4a6-0094-3daf-9399-e542875a05f5 at Vector3d{x=-569.1429901123047, y=37.0, z=263.02877044677734} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:52:29   WARN]                     [Spawning|P] Marker 28e4a3b7-67c6-36d6-b913-25cbdbd2900f at Vector3d{x=-510.60243225097656, y=67.03850555419922, z=355.00331687927246} removed due to repeated spawning fails of Goblin_Lobber with reason: NO_ROOM
+[2026/01/17 13:52:29   WARN]                     [Spawning|P] Marker 6fb13685-2de4-3e4f-8242-e21842055dd3 at Vector3d{x=-334.1429901123047, y=37.0, z=150.02877044677734} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:52:29   WARN]                     [Spawning|P] Marker 8be0c46e-613f-3e5e-96ce-bb9d1bae7e72 at Vector3d{x=-475.5921962036133, y=74.00064376220698, z=363.5414897216798} removed due to repeated spawning fails of Goblin_Scrapper with reason: TOO_HIGH
+[2026/01/17 13:52:29   WARN]                     [Spawning|P] Marker f7139cc8-7691-35e2-b216-45a1d259f5ba at Vector3d{x=-386.210830871582, y=48.00177083740229, z=121.07406027832033} removed due to repeated spawning fails of Goblin_Scrapper with reason: TOO_HIGH
+[2026/01/17 13:52:31 SEVERE]                     [ChunkStore] Took too long to pre-load process chunk: 33ms 880us 423ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-12, z=1, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:32   WARN] [Spawning|P] Marker c6ba06da-df88-3c80-b2a7-73f4f74f63a9 at Vector3d{x=-475.4093432128906, y=43.99942705078125, z=82.35646643066411} removed due to repeated spawning fails of Goblin_Scrapper with reason: TOO_HIGH
+[2026/01/17 13:52:32   WARN] [Spawning|P] Marker 660157fa-f498-39c4-aadf-91ed0743d4d1 at Vector3d{x=-592.8542938232422, y=41.099143981933594, z=173.361328125} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:52:32   WARN] [Spawning|P] Marker f029fbee-3d7c-3797-b33f-5bd20d285e6d at Vector3d{x=-536.4341125488281, y=68.0, z=404.98224449157715} removed due to repeated spawning fails of Goblin_Scavenger with reason: NO_ROOM
+[2026/01/17 13:52:32   WARN] [Spawning|P] Marker 863818e8-42e5-365a-8b25-8c6efc27d8dc at Vector3d{x=-266.1474461555481, y=35.0, z=206.37825393676758} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:52:32 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 46ms 263us 273ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-7, z=10, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:32 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 48ms 504us 621ns > TICK_STEP, WorldChunk{x=-10, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:32 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 38ms 34us 770ns > TICK_STEP, WorldChunk{x=-11, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:32 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 39ms 128us 798ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-14, z=14, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 105ms 245us 240ns > TICK_STEP, WorldChunk{x=-17, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 107ms 230us 144ns > TICK_STEP, WorldChunk{x=-12, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 119ms 858us 778ns > TICK_STEP, WorldChunk{x=-13, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 79ms 277us 967ns > TICK_STEP, WorldChunk{x=-16, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 117ms 133us 89ns > TICK_STEP, WorldChunk{x=-15, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 125ms 983us 573ns > TICK_STEP, WorldChunk{x=-18, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 59ms 546us 899ns > TICK_STEP, WorldChunk{x=-19, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 46ms 69us 629ns > TICK_STEP, WorldChunk{x=-21, z=12, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:33 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 40ms 682us 262ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-21, z=8, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:33 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 37ms 7us 657ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-21, z=9, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:33 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 45ms 613us 471ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-21, z=5, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:33 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 49ms 476us 971ns > TICK_STEP, WorldChunk{x=-21, z=4, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:35   WARN]    [Spawning|P] Marker 3704b91c-921a-3296-96f5-9fa26f889502 at Vector3d{x=-546.7297339965821, y=61.00080738525385, z=400.6868769042969} removed due to repeated spawning fails of Goblin_Scrapper with reason: NO_ROOM
+[2026/01/17 13:52:35   WARN]    [Spawning|P] Marker fbf5d41a-a469-33f3-b6cd-3ae7e32503c6 at Vector3d{x=-228.40576230468787, y=36.81916809082031, z=162.08096311035158} removed due to repeated spawning fails of Golem_Firesteel with reason: NO_ROOM
+[2026/01/17 13:52:35   WARN]    [Spawning|P] Marker a03b2a83-99a3-31fa-8fa0-320d4e105931 at Vector3d{x=-234.1429901123047, y=37.0, z=312.02877044677734} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:52:35   WARN]    [Spawning|P] Marker 43905c3f-8ca1-30f8-9f33-71b421856b7f at Vector3d{x=-635.8542938232422, y=41.099143981933594, z=325.361328125} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:52:35 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 42ms 938us 617ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-6, z=10, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:35 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 52ms 538us 251ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-6, z=13, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:35 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 38ms 546us 804ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-6, z=14, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:35 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 42ms 673us 739ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-6, z=6, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:36 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 40ms 507us 753ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-19, z=15, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:38 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 209us 985ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-7, z=16, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:38   WARN] [World|default] Task took 47ms 254us 538ns ns: java.util.concurrent.CompletableFuture$UniAccept@5ed85971
+[2026/01/17 13:52:41 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 42ms 346us 513ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-25, z=-3, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:41 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 45ms 182us 9ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-22, z=-4, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:42   WARN] [World|default] Task took 209ms 248us 552ns ns: java.util.concurrent.CompletableFuture$UniApply@7dee1375
+[2026/01/17 13:52:42 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 212ms 564us 191ns > TICK_STEP, WorldChunk{x=-2, z=1, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:42 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 209ms 482us 512ns > TICK_STEP, WorldChunk{x=-2, z=0, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:42 SEVERE]    [ChunkStore] Took too long to post-load process chunk: 127ms 228us 605ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-2, z=0, flags=00000000000000000000000000000111}
+[2026/01/17 13:52:42   WARN] [World|default] Task took 131ms 460us 468ns ns: java.util.concurrent.CompletableFuture$UniApply@3bf0aca0
+[2026/01/17 13:52:46 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 43us 703ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-28, z=14, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:46 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 41ms 15us 47ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-28, z=15, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:46 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 338ms 907us 9ns > TICK_STEP, WorldChunk{x=-28, z=11, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:47   WARN] [World|default] Task took 175ms 516us 558ns ns: java.util.concurrent.CompletableFuture$UniApply@1a6008de
+[2026/01/17 13:52:47 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 109ms 853us 80ns > TICK_STEP, Has GC Run: true, WorldChunk{x=1, z=-6, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:52:49   WARN] [World|default] Task took 73ms 458us 206ns ns: java.util.concurrent.CompletableFuture$UniAccept@67a80c1e
+[2026/01/17 13:52:50 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 377us 870ns > TICK_STEP, Has GC Run: true, WorldChunk{x=2, z=-6, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:50 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 50ms 284us 460ns > TICK_STEP, Has GC Run: false, WorldChunk{x=2, z=-3, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:50 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 512us 111ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-1, z=23, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:50 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 998us 109ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-4, z=23, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:51 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 41ms 191us 651ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-5, z=23, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:51 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 289ms 151us 975ns > TICK_STEP, WorldChunk{x=2, z=20, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:51 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 758us 668ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-13, z=23, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:51 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 37ms 203us 917ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-11, z=23, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:51 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 822ms 217us 702ns > TICK_STEP, Has GC Run: true, WorldChunk{x=2, z=19, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:51 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 1sec 85ms 650us 431ns > TICK_STEP, WorldChunk{x=2, z=23, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:52 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 38ms 249us 484ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-4, z=-9, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:52 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 46ms 248us 736ns > TICK_STEP, Has GC Run: true, WorldChunk{x=3, z=19, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:52 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 34ms 689us 505ns > TICK_STEP, WorldChunk{x=3, z=18, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:53 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 425ms 652us 157ns > TICK_STEP, Has GC Run: true, WorldChunk{x=3, z=17, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:53 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 638ms 613us 204ns > TICK_STEP, WorldChunk{x=3, z=22, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:54 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 717us 830ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-21, z=-10, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:54 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 33ms 940us 956ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-17, z=-10, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:55 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 36ms 375us 327ns > TICK_STEP, Has GC Run: true, WorldChunk{x=3, z=25, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:55 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 39ms 309us 408ns > TICK_STEP, Has GC Run: false, WorldChunk{x=2, z=25, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:55 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 37ms 896us 339ns > TICK_STEP, Has GC Run: true, WorldChunk{x=1, z=25, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:55 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 166ms 665us 132ns > TICK_STEP, WorldChunk{x=4, z=21, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:55 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 345ms 815us 178ns > TICK_STEP, WorldChunk{x=4, z=13, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:55 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 523ms 4us 73ns > TICK_STEP, WorldChunk{x=4, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:57 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 41ms 410us 582ns > TICK_STEP, Has GC Run: true, WorldChunk{x=5, z=10, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:58 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 107ms 286us 450ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-33, z=9, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 507us 714ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-33, z=0, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 39ms 941us 437ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-33, z=-1, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 51ms 271us 998ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-33, z=-2, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 41ms 599us 648ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-33, z=1, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 223us 170ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-33, z=-5, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 46us 166ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-33, z=-7, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 33ms 732us 565ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-24, z=-12, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 37ms 458us 675ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-26, z=-12, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker d9e9b191-95a8-3874-9ef6-60e61ebf2662 at Vector3d{x=-404.2366180419922, y=38.000099182128906, z=24.724212646484375} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker 7593f990-9138-3940-a281-89cab3f19581 at Vector3d{x=-483.90363216400146, y=31.0, z=12.983421325683594} removed due to repeated spawning fails of Skeleton_Incandescent_Head with reason: NO_ROOM
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker 25171018-b24d-396f-9d6c-1f3339880443 at Vector3d{x=-226.07949447631836, y=37.0, z=114.01558113098145} removed due to repeated spawning fails of Golem_Firesteel with reason: NO_ROOM
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker b57d49a5-6034-3654-be34-13ab135f9b7b at Vector3d{x=-463.2366180419922, y=38.000099182128906, z=21.724212646484375} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker a06c983f-2585-376d-b9ea-39a779ec87f3 at Vector3d{x=-226.50550842285156, y=42.0, z=367.09778785705566} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: NO_ROOM
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker 361da2e2-e67e-3e3b-8f01-4758cdc5284b at Vector3d{x=-458.8542938232422, y=41.099143981933594, z=17.361328125} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker c673f993-d5fa-3f77-aa63-092b48f28e07 at Vector3d{x=-466.1429901123047, y=37.0, z=12.028770446777344} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker 04b2b57b-218d-38b8-84ee-ef5db8ede76c at Vector3d{x=-452.96998405456543, y=56.0, z=0.8509006500244141} removed due to repeated spawning fails of Goblin_Scrapper with reason: TOO_HIGH
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker eea359fa-ac17-3492-ad06-23fd4fc7135f at Vector3d{x=-310.72973399658207, y=72.00080738525385, z=36.686876904296895} removed due to repeated spawning fails of Goblin_Scrapper with reason: TOO_HIGH
+[2026/01/17 13:52:59   WARN]    [Spawning|P] Marker 20990802-17f8-32b5-8fe3-5be1b4901458 at Vector3d{x=-381.59208635253907, y=46.00038184814457, z=460.42152243652345} removed due to repeated spawning fails of Goblin_Scrapper with reason: NO_ROOM
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 38ms 172us 739ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-5, z=-12, flags=00000000000000000000000000000100}
+[2026/01/17 13:52:59 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 743us 437ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-6, z=-12, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 205us 93ns > TICK_STEP, Has GC Run: true, WorldChunk{x=6, z=8, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 52ms 409us 750ns > TICK_STEP, Has GC Run: false, WorldChunk{x=6, z=10, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 44ms 672us 510ns > TICK_STEP, Has GC Run: true, WorldChunk{x=6, z=11, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 34ms 950us 55ns > TICK_STEP, WorldChunk{x=6, z=12, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 56ms 982us 103ns > TICK_STEP, Has GC Run: false, WorldChunk{x=6, z=14, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 33ms 477us 724ns > TICK_STEP, Has GC Run: false, WorldChunk{x=6, z=18, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 40ms 606us 68ns > TICK_STEP, Has GC Run: false, WorldChunk{x=6, z=16, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 45ms 983us 176ns > TICK_STEP, Has GC Run: false, WorldChunk{x=6, z=17, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:00 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 650us 774ns > TICK_STEP, Has GC Run: false, WorldChunk{x=6, z=21, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:01 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 305us 535ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-24, z=27, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:01 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 612us 730ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-27, z=27, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:01 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 832us 35ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-34, z=22, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:01 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 50ms 366us 344ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-34, z=12, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:01 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 47ms 770us 910ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-34, z=11, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:01 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 34ms 532us 89ns > TICK_STEP, WorldChunk{x=-34, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:53:01 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 46ms 789us 263ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-34, z=13, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:02 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 42ms 254us 931ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-15, z=-13, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:03 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 698us 826ns > TICK_STEP, Has GC Run: true, WorldChunk{x=7, z=2, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:03 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 248ms 911us 194ns > TICK_STEP, Has GC Run: true, WorldChunk{x=7, z=12, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:53:03 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 58us 66ns > TICK_STEP, Has GC Run: false, WorldChunk{x=7, z=21, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:04 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 468us 671ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-35, z=20, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:04 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 39ms 44us 810ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-35, z=9, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:04 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 38ms 355us 363ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-35, z=8, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:04 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 142us 580ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-18, z=-14, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:05 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 408us 889ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-7, z=-14, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:05 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 204us 574ns > TICK_STEP, Has GC Run: false, WorldChunk{x=8, z=-3, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:05 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 414us 501ns > TICK_STEP, Has GC Run: false, WorldChunk{x=8, z=1, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:05 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 829us 779ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-13, z=29, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:06 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 706us 16ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-12, z=29, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:06 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 36ms 651us 937ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-10, z=29, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:06 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 45ms 739us 548ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-19, z=29, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:06 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 33ms 928us 733ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-36, z=2, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:06 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 1sec 107ms 995us 908ns > TICK_STEP, Has GC Run: true, WorldChunk{x=8, z=12, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:53:06 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 392us 959ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-36, z=-5, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:07 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 38ms 379us 699ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-11, z=-15, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:07 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 386us 224ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-10, z=-15, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:07 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 33ms 360us 23ns > TICK_STEP, WorldChunk{x=-5, z=-15, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.server.core.modules.block.BlockModule$$Lambda/0x000000004f06bc00@4ee1c29a
+[2026/01/17 13:53:07 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 243us 245ns > TICK_STEP, Has GC Run: false, WorldChunk{x=9, z=9, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:08 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 35ms 57us 97ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-37, z=14, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:08   INFO]        [Hytale] BreakBlockInteraction requires a Player but was used for: Ref{store=class com.hypixel.hytale.component.Store@78706227, index=47} [CONTEXT ratelimit_period="5 MINUTES" ]
+[2026/01/17 13:53:08 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 779ms 226us 334ns > TICK_STEP, WorldChunk{x=9, z=12, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:53:08 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 40ms 551us 185ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-13, z=-16, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:08 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 265us 918ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-17, z=-16, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:09 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 818us 528ns > TICK_STEP, Has GC Run: false, WorldChunk{x=-8, z=-16, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:09 SEVERE]    [ChunkStore] Took too long to pre-load process chunk: 34ms 96us 830ns > TICK_STEP, Has GC Run: true, WorldChunk{x=10, z=10, flags=00000000000000000000000000000100}
+[2026/01/17 13:53:16 SEVERE] [World|default] Took too long to run pre-load process hook for chunk: 464ms 928us 503ns > TICK_STEP, Has GC Run: true, WorldChunk{x=8, z=20, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:53:52   WARN]    [Spawning|P] Removing NPC of type Mosshorn_Plain due to overpopulation (expected: 3.115913, actual: 8)
+[2026/01/17 13:54:01   INFO] [CommandManager] alerty executed command: gm c
+[2026/01/17 13:54:37   WARN]     [Spawning|P] Marker 19e27f85-1317-3fb6-bde0-4abb59a574db at Vector3d{x=-165.1429901123047, y=37.0, z=362.02877044677734} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:54:39 SEVERE]  [World|default] Took too long to run pre-load process hook for chunk: 1sec 243ms 266us 83ns > TICK_STEP, Has GC Run: true, WorldChunk{x=12, z=14, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:54:39 SEVERE]  [World|default] Took too long to run pre-load process hook for chunk: 1sec 730ms 998us 806ns > TICK_STEP, WorldChunk{x=9, z=20, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:54:43   WARN]     [Spawning|P] Marker f45f5ecd-6c8a-3eba-9591-5eb8bc42769e at Vector3d{x=-386.1429901123047, y=37.0, z=-33.971229553222656} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:56:03   WARN]     [Spawning|P] Marker 19a917f6-374b-3044-a911-2a7c03683c15 at Vector3d{x=-469.1474461555481, y=35.0, z=-34.62174606323242} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:56:12   WARN]     [Spawning|P] Marker f5347550-3816-30d1-be28-1963ecd0105d at Vector3d{x=-488.2139434814453, y=42.0, z=-89.10170364379883} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:56:14 SEVERE]     [ChunkStore] Took too long to pre-load process chunk: 33ms 718us 438ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-12, z=-20, flags=00000000000000000000000000000100}
+[2026/01/17 13:56:24   WARN]     [Spawning|P] Marker 18b0ad8c-7648-31d5-9bae-df2675b014c2 at Vector3d{x=-355.2366180419922, y=38.000099182128906, z=-124.27578735351562} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:56:24   WARN]     [Spawning|P] Marker cfcf52fb-6358-3dcc-9b1f-69c82a199ad2 at Vector3d{x=-269.0381622314453, y=37.0, z=-91.9317855834961} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: TOO_HIGH
+[2026/01/17 13:56:38   WARN]     [Spawning|P] Marker a1ab8d20-28c5-3e8c-be50-5618cbe9a10f at Vector3d{x=-733.0794944763184, y=37.0, z=58.015581130981445} removed due to repeated spawning fails of Golem_Firesteel with reason: NO_ROOM
+[2026/01/17 13:56:38   WARN]     [Spawning|P] Marker c2775781-5a22-332c-9fa4-474405489d45 at Vector3d{x=-598.8542938232422, y=41.099143981933594, z=-120.638671875} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:56:40   WARN]     [Spawning|P] Marker 892b7dce-4405-3ba8-a086-19e8fe04884e at Vector3d{x=-538.2139434814453, y=42.0, z=-140.10170364379883} removed due to repeated spawning fails of Skeleton_Incandescent_Mage with reason: TOO_HIGH
+[2026/01/17 13:56:44   WARN]     [Spawning|P] Marker 1b2a0f00-5692-3653-bead-4ef4096956bd at Vector3d{x=-311.2366180419922, y=38.000099182128906, z=-124.27578735351562} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:57:10   WARN]     [Spawning|P] Marker 646ee981-f235-3107-8a2c-b63a04f005e8 at Vector3d{x=-684.0794944763184, y=37.0, z=319.01558113098145} removed due to repeated spawning fails of Golem_Firesteel with reason: NO_ROOM
+[2026/01/17 13:57:49   INFO] [CommandManager] alerty executed command: gm c
+[2026/01/17 13:58:38   INFO]         [Hytale] BreakBlockInteraction requires a Player but was used for: Ref{store=class com.hypixel.hytale.component.Store@78706227, index=198} [CONTEXT ratelimit_period="5 MINUTES [skipped: 18]" ]
+[2026/01/17 13:59:18   WARN]     [Spawning|P] Marker b7811657-fa9d-397f-9dd3-9c209719f1ba at Vector3d{x=-772.1429901123047, y=37.0, z=67.02877044677734} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:59:19 SEVERE]  [World|default] Took too long to run pre-load process hook for chunk: 54ms 567us 980ns > TICK_STEP, Has GC Run: true, WorldChunk{x=-29, z=-20, flags=00000000000000000000000000000100}, Hook: com.hypixel.hytale.builtin.fluid.FluidPlugin$$Lambda/0x000000004f19f000@418f0f27
+[2026/01/17 13:59:19   WARN]     [Spawning|P] Marker 16646579-e6bf-3629-b5e9-976d7856a470 at Vector3d{x=-741.8746948242188, y=34.0, z=200.5892915725708} removed due to repeated spawning fails of Skeleton_Incandescent_Fighter with reason: NO_ROOM
+[2026/01/17 13:59:35   WARN]     [Spawning|P] Marker b566bb09-b60d-3ce7-8176-4abb52331ac9 at Vector3d{x=-785.0794944763184, y=37.0, z=159.01558113098145} removed due to repeated spawning fails of Golem_Firesteel with reason: NO_ROOM
+[2026/01/17 13:59:35   WARN]     [Spawning|P] Marker 8e17646e-28c2-363c-8bf7-175d90d37b94 at Vector3d{x=-726.210830871582, y=53.00177083740229, z=301.0740602783203} removed due to repeated spawning fails of Goblin_Thief with reason: NO_ROOM
+[2026/01/17 13:59:35   WARN]     [Spawning|P] Marker c75e0a84-a438-3a4e-8e38-32f2dcced670 at Vector3d{x=-761.4435759765626, y=95.0, z=225.00137381591793} removed due to repeated spawning fails of Skeleton_Archer_Patrol with reason: NO_ROOM
+[2026/01/17 13:59:35   WARN]     [Spawning|P] Marker 95051886-256b-35e5-a40f-38b1ca9087f6 at Vector3d{x=-756.8912691406249, y=88.0, z=237.0672114379883} removed due to repeated spawning fails of Skeleton_Soldier_Patrol with reason: NO_ROOM
+[2026/01/17 13:59:41   WARN]     [Spawning|P] Removing NPC of type Pig due to overpopulation (expected: 6.682952, actual: 13)
+[2026/01/17 13:59:52   INFO]         [Hytale] 34ef6c2d-13be-3de0-ba01-6bca1d9af96b - alerty at QuicConnectionAddress{connId=1594beb992bdcee5ac63bba70d72ae48d1b6e4bd} (/127.0.0.1:38371, streamId=0) left with reason: Disconnect - Player leave
+[2026/01/17 13:59:52   INFO]         [Hytale] {Playing(null (null, streamId=0)), 34ef6c2d-13be-3de0-ba01-6bca1d9af96b, alerty} was closed.
+[2026/01/17 13:59:52   INFO]     [Universe|P] Removing player 'alerty' (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:59:52   INFO]  [QUICTransport] Connection closed: QuicheQuicConnectionStats[recv=43027, sent=134543, lost=45, retrans=45, sentBytes=82353561, recvBytes=8460114, lostBytes=53393, streamRetransBytes=52223, pathsCount=1]
+[2026/01/17 13:59:52   INFO] [CommandManager] Console executed command: stop
+Shutting down!
+[2026/01/17 13:59:52   INFO]   [HytaleServer] Shutdown triggered!!!
+[2026/01/17 13:59:52   INFO]   [HytaleServer] Shutting down... 0  'null'
+[2026/01/17 13:59:52   INFO]         [Hytale] Disconnecting alerty at null (null, streamId=0) with the message: Stopping server!
+[2026/01/17 13:59:52   INFO]     [Universe|P] Removing player 'alerty' (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:59:52   INFO] [ServerManager|P] Closed listener [id: 0xdc54f419] and took 530us 859ns
+[2026/01/17 13:59:52   INFO]   [World|default] Stopping world default...
+[2026/01/17 13:59:52   INFO]   [World|default] Stopping background threads...
+[2026/01/17 13:59:52   INFO]    [Objectives|P] Checking objectives for disconnecting player 'alerty' (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:59:52   INFO]    [Objectives|P] Processing 0 active objectives for 'alerty' (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:59:52   INFO]   [PlayerSystems] Removing player 'alerty (alerty)' from world 'default' (34ef6c2d-13be-3de0-ba01-6bca1d9af96b)
+[2026/01/17 13:59:52   INFO]      [Universe|P] No players left on singleplayer server shutting down!
+[2026/01/17 13:59:52   WARN]      [Universe|P] Timeout or error waiting for player 'alerty' removal from world store
+java.util.concurrent.CompletionException: java.lang.IllegalStateException: Invalid entity reference!
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:359)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:364)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1828)
+	at com.hypixel.hytale.server.core.universe.world.World.consumeTaskQueue(World.java:894)
+	at com.hypixel.hytale.server.core.universe.world.World.onShutdown(World.java:432)
+	at com.hypixel.hytale.server.core.util.thread.TickingThread.run(TickingThread.java:109)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.lang.IllegalStateException: Invalid entity reference!
+	at com.hypixel.hytale.component.Ref.validate(Ref.java:59)
+	at com.hypixel.hytale.component.Store.__internal_getComponent(Store.java:1222)
+	at com.hypixel.hytale.component.Store.getComponent(Store.java:1216)
+	at com.hypixel.hytale.server.core.universe.Universe.lambda$removePlayer$0(Universe.java:999)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825)
+	... 4 more
+Caused by: java.lang.Throwable
+	at com.hypixel.hytale.component.Ref.invalidate(Ref.java:55)
+	at com.hypixel.hytale.component.Store.removeEntity(Store.java:879)
+	at com.hypixel.hytale.component.Store.removeEntity(Store.java:819)
+	at com.hypixel.hytale.component.Store.removeEntity(Store.java:813)
+	at com.hypixel.hytale.server.core.universe.PlayerRef.removeFromStore(PlayerRef.java:244)
+	at com.hypixel.hytale.server.core.entity.entities.Player.remove(Player.java:314)
+	at com.hypixel.hytale.server.core.universe.Universe.lambda$removePlayer$0(Universe.java:1001)
+	... 5 more
+
+[2026/01/17 13:59:52   INFO]      [Universe|P] No players left on singleplayer server shutting down!
+[2026/01/17 13:59:52   INFO]   [World|default] Removing players...
+[2026/01/17 13:59:52   INFO]   [World|default] Waiting for loading chunks...
+[2026/01/17 13:59:52   INFO]   [World|default] Shutting down stores...
+-=|Saving world 'default'|0
+[2026/01/17 13:59:52   INFO]   [World|default] Shutting down chunk generator...
+[2026/01/17 13:59:52   INFO]   [World|default] Saving Chunks...
+[2026/01/17 13:59:52   INFO]   [World|default] Queuing Chunks...
+[2026/01/17 13:59:52   INFO]   [World|default] Saving All Chunks...
+[2026/01/17 13:59:52   INFO]   [World|default] Waiting for Saving Chunks...
+[2026/01/17 13:59:52   INFO]   [World|default] Done Saving Chunks!
+[2026/01/17 13:59:52   INFO]  [WorldGenerator] ChunkGenerator-0 executor shutdown complete
+[2026/01/17 13:59:52   INFO] [PlayerSavingSystems] Saving Players...
+[2026/01/17 13:59:52   INFO]       [World|default] Saving Config...
+[2026/01/17 13:59:52   INFO]          [Universe|P] Removing world exceptionally: default
+-=|Closing world 'default'|0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Saving plugins config...
+-=|Shutdown Modules|1.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:NPCObjectives
+-=|Shutdown Modules|2.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Spawning
+-=|Shutdown Modules|4.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:NPCReputation
+-=|Shutdown Modules|5.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:NPCCombatActionEvaluator
+-=|Shutdown Modules|6.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Portals
+-=|Shutdown Modules|7.000000000000001
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Beds
+-=|Shutdown Modules|9.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:NPCShop
+-=|Shutdown Modules|10.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Memories
+-=|Shutdown Modules|11.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:NPCEditor
+-=|Shutdown Modules|12.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Flock
+-=|Shutdown Modules|14.000000000000002
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Mounts
+-=|Shutdown Modules|15.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:NPC
+-=|Shutdown Modules|16.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Camera
+-=|Shutdown Modules|17.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:DamageModule
+-=|Shutdown Modules|19.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:CreativeHub
+-=|Shutdown Modules|20.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ObjectiveReputation
+-=|Shutdown Modules|21.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ObjectiveShop
+-=|Shutdown Modules|22.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:StaminaModule
+-=|Shutdown Modules|23.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Stash
+-=|Shutdown Modules|25.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:EntityUIModule
+-=|Shutdown Modules|26.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Path
+-=|Shutdown Modules|27.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Objectives
+-=|Shutdown Modules|28.000000000000004
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Instances
+-=|Shutdown Modules|30.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:PrefabSpawnerModule
+-=|Shutdown Modules|31.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockSpawner
+-=|Shutdown Modules|32.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:EntityStatsModule
+-=|Shutdown Modules|33.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ShopReputation
+-=|Shutdown Modules|35.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:SingleplayerModule
+-=|Shutdown Modules|36.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Crafting
+[2026/01/17 13:59:52   INFO]              [Shop|P] Barter shop state saved
+-=|Shutdown Modules|37.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Shop
+-=|Shutdown Modules|38.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Fluid
+-=|Shutdown Modules|40.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Farming
+-=|Shutdown Modules|41.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BuilderTools
+-=|Shutdown Modules|42.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockPhysics
+-=|Shutdown Modules|43.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Teleporter
+-=|Shutdown Modules|44.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Ambience
+-=|Shutdown Modules|46.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:AssetEditor
+-=|Shutdown Modules|47.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockStateModule
+-=|Shutdown Modules|48.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:WorldGen
+-=|Shutdown Modules|49.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Teleport
+-=|Shutdown Modules|51.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ProjectileModule
+-=|Shutdown Modules|52.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Parkour
+-=|Shutdown Modules|53.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Reputation
+-=|Shutdown Modules|54.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Weather
+-=|Shutdown Modules|56.00000000000001
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockModule
+-=|Shutdown Modules|56.99999999999999
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockTypeModule
+-=|Shutdown Modules|57.99999999999999
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ConnectedBlocksModule
+-=|Shutdown Modules|59.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ServerPlayerListModule
+-=|Shutdown Modules|60.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:InteractionModule
+-=|Shutdown Modules|62.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockHealthModule
+-=|Shutdown Modules|63.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockTick
+-=|Shutdown Modules|64.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:EntityModule
+-=|Shutdown Modules|65.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:FlyCameraModule
+-=|Shutdown Modules|67.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:BlockSetModule
+-=|Shutdown Modules|68.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Deployables
+-=|Shutdown Modules|69.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:PermissionsModule
+-=|Shutdown Modules|70.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Mantling
+-=|Shutdown Modules|72.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:LANDiscovery
+-=|Shutdown Modules|73.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:LegacyModule
+-=|Shutdown Modules|74.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:I18nModule
+-=|Shutdown Modules|75.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:CosmeticsModule
+-=|Shutdown Modules|77.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:CommonAssetModule
+-=|Shutdown Modules|78.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ItemModule
+-=|Shutdown Modules|79.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:HytaleGenerator
+-=|Shutdown Modules|80.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:SafetyRoll
+-=|Shutdown Modules|81.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:CommandMacro
+-=|Shutdown Modules|83.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:AccessControlModule
+-=|Shutdown Modules|84.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:TagSet
+-=|Shutdown Modules|85.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Universe
+-=|Shutdown Modules|86.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:CrouchSlide
+-=|Shutdown Modules|88.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:Model
+-=|Shutdown Modules|89.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:SplitVelocity
+-=|Shutdown Modules|90.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:DebugPlugin
+-=|Shutdown Modules|91.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:CollisionModule
+-=|Shutdown Modules|93.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:TimeModule
+[2026/01/17 13:59:52   INFO]     [ConsoleModule|P] Restoring terminal...
+-=|Shutdown Modules|94.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ConsoleModule
+[2026/01/17 13:59:52   INFO]   [PathWatcherThread] Stopped polling for changes in assets. Server will need to be rebooted to load changes!
+-=|Shutdown Modules|95.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:AssetModule
+-=|Shutdown Modules|96.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:MigrationModule
+-=|Shutdown Modules|98.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:SprintForce
+[2026/01/17 13:59:52   INFO]       [QUICTransport] Shutting down workerGroup...
+[2026/01/17 13:59:52   INFO]     [ServerManager|P] Finished shutting down ServerManager...
+-=|Shutdown Modules|99.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:ServerManager
+-=|Shutdown Modules|100.0
+[2026/01/17 13:59:52   INFO]       [PluginManager] Shut down plugin Hytale:WorldLocationCondition
+[2026/01/17 13:59:52   INFO]        [HytaleServer] Saving config...
+[2026/01/17 13:59:52   INFO]        [HytaleServer] Shutdown completed!
